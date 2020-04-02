@@ -22,24 +22,27 @@ namespace Modding.Items.Weapons.Ammo
 			item.knockBack = 40.0f;
 			item.value = 10;
 			item.rare = 4;
-			item.shoot = ProjectileType<Projectiles.SpermP>();   //The projectile shoot when your weapon using this ammo
+			item.shoot = ProjectileType<Projectiles.SadBird>();   //The projectile shoot when your weapon using this ammo
 			item.shootSpeed = 0.1f;                  //The speed of the projectile
 			item.ammo = AmmoID.Bullet;              //The ammo class this ammo belongs to.
 		}
 
 		// Give each bullet consumed a 20% chance of granting the Wrath buff for 5 seconds
-		public override void OnConsumeAmmo(Player player) {
+		public override void OnConsumeAmmo(Player player)
+		{
 			if (Main.rand.NextBool(2)) {
 				player.AddBuff(BuffID.Honey, 500);
 			}
 		}
 
-		public override void AddRecipes() {
+		public override void AddRecipes()
+		{
 			ModRecipe recipe = new ModRecipe(mod);
 			recipe.AddIngredient(ItemID.DirtBlock, 1);
 			recipe.AddTile(TileID.WorkBenches);
 			recipe.SetResult(this, 100);
 			recipe.AddRecipe();
 		}
+
 	}
 }

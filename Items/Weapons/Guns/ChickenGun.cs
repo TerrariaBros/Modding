@@ -8,7 +8,7 @@ namespace Modding.Items.Weapons.Guns
 		public override void SetStaticDefaults()
 		{
 			DisplayName.SetDefault("The Cock");
-			Tooltip.SetDefault("Eggcelent Gunmanship");
+			Tooltip.SetDefault("EGGcelent Gunmanship");
 		}
 		public override void SetDefaults()
 		{

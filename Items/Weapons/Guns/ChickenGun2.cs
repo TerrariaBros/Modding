@@ -9,6 +9,7 @@ namespace Modding.Items.Weapons.Guns
 		{
 			DisplayName.SetDefault("The Cockernator");
 			Tooltip.SetDefault("Eggcelent Destruction");
+			Tooltip.SetDefault("YEETS");
 		}
 		public override void SetDefaults()
 		{
@@ -26,7 +27,7 @@ namespace Modding.Items.Weapons.Guns
 			item.UseSound = SoundID.Item11;
 			item.autoReuse = true;
 			item.shoot = 10; //idk why but all the guns in the vanilla source have this
-			item.shootSpeed = 200f;
+			item.shootSpeed = 30f;
 			item.useAmmo = AmmoID.Bullet;
 		}
 		public override void AddRecipes()
