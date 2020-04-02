@@ -1,5 +1,6 @@
 ﻿using Terraria.ID;
 using Terraria.ModLoader;
+using static Terraria.ModLoader.ModContent;
 
 namespace Modding.Items.Weapons.Guns
 {
@@ -16,7 +17,7 @@ namespace Modding.Items.Weapons.Guns
 			item.ranged = true;
 			item.width = 62;
 			item.height = 38;
-			item.useTime = 2;
+			item.useTime = 6;
 			item.useAnimation = 6;
 			item.useStyle = 5;
 			item.noMelee = true; //so the item's animation doesn't do damage
