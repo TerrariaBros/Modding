@@ -33,7 +33,7 @@ namespace Modding.Items.Weapons.Guns
 		{
 			ModRecipe recipe = new ModRecipe(mod);
 			recipe.AddIngredient(ItemID.Wood, 10);
-			recipe.AddIngredient(ItemID.ChickenGun, 1);
+			recipe.AddIngredient(Mod.itemType("ChickenGun"), 1);
 			recipe.AddTile(TileID.WorkBenches);
 			recipe.SetResult(this);
 			recipe.AddRecipe();
