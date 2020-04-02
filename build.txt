@@ -1,0 +1,3 @@
+displayName = Modding
+author = Terraria Bros
+version = 0.1

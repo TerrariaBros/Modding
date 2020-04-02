@@ -4,7 +4,7 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using static Terraria.ModLoader.ModContent;
 
-namespace e.Items.Guns
+namespace Modding.Items.Guns
 {
 	public class ExampleBullet : ModItem
 	{
@@ -22,7 +22,7 @@ namespace e.Items.Guns
 			item.knockBack = 40.0f;
 			item.value = 10;
 			item.rare = 4;
-			item.shoot = ProjectileType<Projectiles.SadBird>();   //The projectile shoot when your weapon using this ammo
+			item.shoot = ProjectileType<Projectiles.SpermP>();   //The projectile shoot when your weapon using this ammo
 			item.shootSpeed = 0.1f;                  //The speed of the projectile
 			item.ammo = AmmoID.Bullet;              //The ammo class this ammo belongs to.
 		}
