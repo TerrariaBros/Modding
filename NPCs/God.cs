@@ -8,6 +8,7 @@ using Terraria.ModLoader;
 
 namespace Modding.NPCs
 {
+  [AutoloadHead]
   public class God : ModNPC
   {
     public override string Texture => "Modding/NPCs/God";

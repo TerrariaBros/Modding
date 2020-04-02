@@ -38,7 +38,7 @@ namespace Modding.Items.Weapons.Tomes
 			ModRecipe recipe = new ModRecipe(mod);
 			recipe.AddIngredient(ItemID.IronBar, 10);
 			recipe.AddIngredient(ItemID.LifeFruit, 5);
-			recipe.AddIngredient(mod.ItemType("HealingTomeI"));
+			recipe.AddIngredient(mod.ItemType("HealingTomeI"));//Modded ingredient
 			recipe.AddTile(TileID.Bookcases);
 			recipe.SetResult(this);
 			recipe.AddRecipe();
