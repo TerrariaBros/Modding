@@ -1,7 +1,7 @@
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace Modding.Projectiles
+namespace Modding.NPCs
 {
   public class God : ModNPC
   {
