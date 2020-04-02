@@ -13,7 +13,7 @@ namespace Modding.Items.Weapons.Ammo
 		}
 
 		public override void SetDefaults() {
-			item.damage = 10;
+			item.damage = 18;
 			item.ranged = true;
 			item.width = 8;
 			item.height = 8;
@@ -23,7 +23,7 @@ namespace Modding.Items.Weapons.Ammo
 			item.value = 10;
 			item.rare = 4;
 			item.shoot = ProjectileType<Projectiles.SadBird>();   //The projectile shoot when your weapon using this ammo
-			item.shootSpeed = 0.1f;                  //The speed of the projectile
+			item.shootSpeed = 0.3f;                  //The speed of the projectile
 			item.ammo = AmmoID.Bullet;              //The ammo class this ammo belongs to.
 		}
 
