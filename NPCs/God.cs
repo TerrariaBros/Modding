@@ -42,3 +42,5 @@ namespace Modding.NPCs
 			npc.knockBackResist = 0.5f;
 			animationType = NPCID.Guide;
 		}
+  }
+}
