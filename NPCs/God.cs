@@ -71,13 +71,13 @@ namespace Modding.NPCs
           nextSlot++;
           shop.item[nextSlot].SetDefaults(mod.ItemType("ChickenGun"));  //this is an example of how to add a modded item
           nextSlot++;
-          shop.item[nextSlot].SetDefaults(mod.ItemType("ChickenGun2"));  //this is an example of how to add a modded item
+          shop.item[nextSlot].SetDefaults(mod.ItemType("ChickenGun2"));
           nextSlot++;
-          shop.item[nextSlot].SetDefaults(mod.ItemType("ExampleBullet"));  //this is an example of how to add a modded item
+          shop.item[nextSlot].SetDefaults(mod.ItemType("ExampleBullet"));
           nextSlot++;
-          shop.item[nextSlot].SetDefaults(mod.ItemType("HealingTomeI"));  //this is an example of how to add a modded item
+          shop.item[nextSlot].SetDefaults(mod.ItemType("HealingTomeI"));
           nextSlot++;
-          shop.item[nextSlot].SetDefaults(mod.ItemType("HealingTomeII"));  //this is an example of how to add a modded item
+          shop.item[nextSlot].SetDefaults(mod.ItemType("HealingTomeII"));
           nextSlot++;
 
       }
@@ -93,7 +93,7 @@ namespace Modding.NPCs
               case 2:
                   return "I like this house.";
               case 3:
-                  return "<I'm blue dabu di dabu dai>....OH HELLO THERE..";
+                  return "You have sinned leave me alone or buy something...";
               default:
                   return "Go kill Skeletron.";
 
