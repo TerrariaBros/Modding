@@ -4,7 +4,7 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using static Terraria.ModLoader.ModContent;
 
-namespace e.Items.Guns
+namespace Modding.Items.Guns
 {
 	public class ExampleBullet : ModItem
 	{
