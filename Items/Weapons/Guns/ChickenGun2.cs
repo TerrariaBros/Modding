@@ -12,21 +12,21 @@ namespace Modding.Items.Weapons.Guns
 		}
 		public override void SetDefaults()
 		{
-			item.damage = ChickenGun.item.damage * 2;
+			item.damage = 60;
 			item.ranged = true;
-			item.width = 40;
-			item.height = 20;
+			item.width = 62;
+			item.height = 38;
 			item.useTime = 20;
 			item.useAnimation = 20;
 			item.useStyle = 5;
 			item.noMelee = true; //so the item's animation doesn't do damage
-			item.knockBack = 4;
+			item.knockBack = 5;
 			item.value = 10000;
 			item.rare = 2;
 			item.UseSound = SoundID.Item11;
 			item.autoReuse = true;
 			item.shoot = 10; //idk why but all the guns in the vanilla source have this
-			item.shootSpeed = 16f;
+			item.shootSpeed = 200f;
 			item.useAmmo = AmmoID.Bullet;
 		}
 		public override void AddRecipes()
