@@ -1,7 +1,7 @@
 ﻿using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace e.Items.Guns
+namespace Modding.Items.Weapons.Guns
 {
 	public class ChickenGun : ModItem
 	{
