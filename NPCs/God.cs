@@ -75,6 +75,10 @@ namespace Modding.NPCs
           nextSlot++;
           shop.item[nextSlot].SetDefaults(mod.ItemType("ExampleBullet"));  //this is an example of how to add a modded item
           nextSlot++;
+          shop.item[nextSlot].SetDefaults(mod.ItemType("HealingTomeI"));  //this is an example of how to add a modded item
+          nextSlot++;
+          shop.item[nextSlot].SetDefaults(mod.ItemType("HealingTomeII"));  //this is an example of how to add a modded item
+          nextSlot++;
 
       }
 
